@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link href="./TodoApp.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo Application</h1>
+        <input type="text" id="filter" placeholder="filter by Id and name">
+        <select id="sort">
+            <option value="id">sort by Id</option>
+            <option value="title">sort by title</option>
+        </select>
+        <div id="loader">Loading....</div>
+        <ul id="todoList">
+        </ul>
+
+    </div>
+    <script src="./TodoApp.js"></script>
+</body>
+</html>

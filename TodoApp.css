@@ -1,0 +1,29 @@
+.container {
+    max-width: 700px;
+    border: 1px solid grey;
+    max-height: 4500px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+input {
+    width: 190px;
+    height: 30px;
+}
+
+select {
+    width: 160px;
+    height: 30px;
+    margin-left: 20px;
+    color: blue;
+
+}
+
+#todoList {
+    list-style-type: none;
+}
+li{
+    text-align: left;
+}
